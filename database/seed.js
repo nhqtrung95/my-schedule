@@ -1,0 +1,1 @@
+const Models = require('./../App/Models/index.js');
