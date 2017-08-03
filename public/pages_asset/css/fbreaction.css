@@ -36,3 +36,22 @@ html, body{
     left: -25px; bottom: 25px;
     display: none;
 }
+
+.reaction-icon{
+   	width: 40px; height: 40px;
+    display: inline-block;
+    background: #8959A8;
+    border-radius: 20px;
+    margin: 8px -1px 0 8px;
+    text-align: center;	
+}
+
+.reaction-icon > label {
+      padding: 3px 5px 3px 5px;
+      position: relative;
+      top: -24px;
+      border-radius: 10px;
+      font-size: 11px;
+      color: #FFF;
+      background: #333;
+}
