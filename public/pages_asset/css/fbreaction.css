@@ -1,0 +1,38 @@
+html, body{
+	padding: 20px;
+	font-family: sans-serif;
+}
+
+.feed{
+	width: 500px;
+	height: 473px;
+	background-image: url(http://i.imgur.com/HckmGbj.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	position: relative;
+}
+
+.like-btn{
+	width: 44px; height: 25px;
+    background: #D0D0D0;
+    position: absolute;
+    bottom: 13px; left: 13px;
+    cursor: pointer;
+}
+
+.like-btn:hover{
+	background: #718C00;
+}
+
+.like-btn:hover .reaction-box{
+	display: block;
+}
+
+.reaction-box{
+    position: absolute;
+    width: 312px; height: 55px;
+    background: #F0C674;
+    border-radius: 28px;
+    left: -25px; bottom: 25px;
+    display: none;
+}
